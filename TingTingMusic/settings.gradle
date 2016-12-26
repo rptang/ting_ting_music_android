@@ -1,0 +1,1 @@
+include ':app', ':PagerSlidingTabStriplibrary', ':libraries:vitamio'

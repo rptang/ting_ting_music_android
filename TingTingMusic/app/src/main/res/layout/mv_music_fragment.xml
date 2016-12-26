@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ffffff"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_mv1"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:paddingTop="15dp"
+            android:paddingRight="145dp"
+            android:layout_gravity="left"
+            android:src="@drawable/mv1"/>
+
+        <ImageView
+            android:id="@+id/iv_mv2"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:paddingTop="15dp"
+            android:paddingLeft="145dp"
+            android:layout_gravity="right"
+            android:src="@drawable/mv2"/>
+
+
+
+        <ImageView
+            android:id="@+id/iv_mv3"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:paddingTop="15dp"
+            android:paddingRight="145dp"
+            android:layout_gravity="left"
+            android:src="@drawable/mv1"/>
+
+        <ImageView
+            android:id="@+id/iv_mv4"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:paddingTop="15dp"
+            android:paddingLeft="145dp"
+            android:layout_gravity="right"
+            android:src="@drawable/mv2"/>
+
+        <ImageView
+            android:id="@+id/iv_mv5"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:paddingTop="15dp"
+            android:paddingRight="145dp"
+            android:layout_gravity="left"
+            android:src="@drawable/mv1"/>
+
+        <ImageView
+            android:id="@+id/iv_mv6"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:paddingTop="15dp"
+            android:paddingLeft="145dp"
+            android:layout_gravity="right"
+            android:src="@drawable/mv2"/>
+
+        </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
